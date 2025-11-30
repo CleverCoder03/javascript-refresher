@@ -19,3 +19,9 @@ const answer1 = num1 == num2  // equal to
 const answer2 = num1 != num2  // not equal to
 const answer3 = num1 >= num2  // greater than equal to
 const answer4 = num1 <= num2  // lesser than equal to
+
+let score = 5
+score += 10
+score -= 2
+score *= 2
+score /= 2
