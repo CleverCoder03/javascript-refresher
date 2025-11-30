@@ -1,0 +1,14 @@
+/* 
+String
+Number
+Boolean
+BigInt
+
+undefined
+null
+
+Object
+Array
+
+Symbol 
+*/
