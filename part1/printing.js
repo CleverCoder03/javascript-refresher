@@ -1,0 +1,5 @@
+console.log("Hello World!!")
+process.stdout.write("Yooo!")
+console.warn("This is warning!!")
+console.info("This is information")
+console.table({name: "Senpai"})
