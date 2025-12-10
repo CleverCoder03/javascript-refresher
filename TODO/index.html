@@ -110,19 +110,32 @@
         border-color: #3f3f46;
       }
 
+      #task-list > li.completed {
+        background: #2d1b46; /* deep subtle purple that fits your UI */
+        color: #e9ddff; /* soft light-purple text */
+        text-decoration: line-through; /* line through text */
+        border-color: #5b21b6; /* purple border accent */
+        transition: 0.25s all ease;
+
+        /* polished effect */
+        box-shadow: 0 0 10px rgba(124, 58, 237, 0.25);
+        opacity: 0.95;
+      }
+
       /* 7. The Delete Button Styling */
       #task-list > li > button {
         background-color: #3f3f46;
         color: #ff5555; /* Soft Red */
         border: none;
         border-radius: 6px;
-        width: 32px;
-        height: 32px;
+        /* width: 32px;
+        height: 32px; */
         display: flex;
         align-items: center;
         justify-content: center;
         cursor: pointer;
-        font-size: 20px;
+        font-size: 14px;
+        padding: 2px 6px;
         transition: all 0.2s;
       }
 
@@ -142,7 +155,7 @@
           <button class="add-btn" id="add-task-btn">Add Task</button>
         </div>
 
-        <ul id="todo-list"></ul>
+        <ul id="task-list"></ul>
       </div>
     </div>
     <script src="./script.js"></script>
